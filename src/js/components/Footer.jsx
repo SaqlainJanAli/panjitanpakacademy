@@ -2,9 +2,7 @@ import React from "react";
 import {
   EmailShareButton,
   FacebookShareButton,
-  TwitterShareButton,
   WhatsappShareButton,
-  TwitterIcon,
   FacebookIcon,
   WhatsappIcon,
   EmailIcon,
@@ -43,7 +41,7 @@ const Footer = () => {
                 <div class="is-divider"></div>
                 <div className="flex">
                   <FontAwesomeIcon icon={faEnvelope} /> Email :
-                  panjitanpak@gmail.com
+                  panjitanpak12@gmail.com
                   <br />
                   <br />
                   <FontAwesomeIcon icon={faPhone} /> Mobile : +92 315 5255725
@@ -155,14 +153,12 @@ const Footer = () => {
           >
             <TwitterIcon size={32} round />
           </TwitterShareButton> */}
-          {/* <WhatsappShareButton
-            url={"https://www.example.com"}
-            quote={"Dummy text!"}
-            hashtag="#muo"
-          >  <WhatsappIcon size={32} round />
-          </WhatsappShareButton> */}
+          <WhatsappShareButton url={"+923155255725"}>
+            {" "}
+            <WhatsappIcon size={32} round />
+          </WhatsappShareButton>
           <EmailShareButton
-            url={"panjitanpak@gmail.com"}
+            url={"panjitanpak12@gmail.com"}
             quote={"Mail To : PanjitanPakOnlineQuranAcademy"}
             hashtag="#PanjitanPakOnlineQuranAcademy"
           >
