@@ -9,6 +9,7 @@ const QuranTafseer = () => {
     },
     p: {
       marginBottom: "15px",
+      textAlign: "justify",
     },
     header: {
       background: "linear-gradient(to right, green , lightgreen )",
