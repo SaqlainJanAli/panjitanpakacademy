@@ -7,13 +7,13 @@
   pointer-events: none;
 }
 
-.ButurabApp {
+.PanjitanPakApp {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
 }
 
-.ButurabAppHeader {
+.PanjitanPakAppHeader {
   position: absolute;
   /* top: 0;  */
   /* margin-bottom: 220px; */
@@ -23,7 +23,7 @@
   width: "100%";
   z-index: "999";
 }
-.ButurabAppBody {
+.PanjitanPakAppBody {
   /* margin-top: auto; */
   background: linear-gradient(
     90deg,
@@ -37,7 +37,7 @@
   padding-top: 120px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
-.ButurabAppFooter {
+.PanjitanPakAppFooter {
   /* background: linear-gradient(90deg, white 0%, rgba(138, 239, 255, 1) 100%); */
   background-color: #0f0f0f;
   margin-top: 50;
@@ -45,12 +45,12 @@
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
-.buturab-brand-name {
+.PanjitanPak-brand-name {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-style: italic;
   font-weight: bold;
 }
-.buturab-page-name {
+.PanjitanPak-page-name {
   margin: 20;
   margin-bottom: 30;
   font-family: "Times New Roman";
@@ -61,7 +61,7 @@
 .textAlignJustify {
   text-align: justify;
 }
-.buturab-name-heading {
+.PanjitanPak-name-heading {
   color: white;
   text-align: right;
   /* top: auto; */
@@ -236,7 +236,7 @@
 
 /* Footer CSS */
 
-.ButurabAppFooter > * {
+.PanjitanPakAppFooter > * {
   flex: 1 100%;
 }
 
@@ -267,7 +267,7 @@
 .backgroundFaded {
   opacity: 0.8;
 }
-.why-buturab-card {
+.why-PanjitanPak-card {
   border-radius: 4rem;
 }
 .full-bleed {

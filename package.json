@@ -1,5 +1,5 @@
 {
-  "name": "buturab-frontend",
+  "name": "PanjitanPak-frontend",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -20,7 +20,7 @@
     "react-icons": "^4.7.1",
     "react-page-scroll-progress-bar": "^3.0.1",
     "react-router-dom": "^6.8.0",
-    "react-scripts": "5.0.1",
+    "react-scripts": "^5.0.1",
     "react-share": "^4.4.1",
     "react-social-media-embed": "^2.3.4",
     "surge": "^0.23.1",

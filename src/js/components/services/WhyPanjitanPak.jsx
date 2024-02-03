@@ -8,14 +8,14 @@ import TranslatePng from "../../../resources/images/translate-png.png";
 import MoneyBackGuaranteePng from "../../../resources/images/moneyback-guarantee-png.png";
 import { Col, Row } from "react-bootstrap";
 
-export default function WhyButurab() {
+export default function WhyPanjitanPak() {
   let cardsInfo = [
     {
       heading: "Flexible Schedule 24/7",
       icon: clockPng,
       altName: "Card Image One",
       paragraph: `"You can choose any time for your online Quran lessons
-      without interrupting your busy schedule. Buturab Online
+      without interrupting your busy schedule. PanjitanPak Online
       Quran Academy offers live 24/7 one-on-one lessons with the
       help of our most deviant Quran tutors."`,
     },
@@ -55,7 +55,7 @@ export default function WhyButurab() {
     <>
       <div className="container-fluid">
         <h3 style={{ color: "orangered", fontWeight: "bolder" }}>
-          Why Buturab?
+          Why PanjitanPak?
         </h3>
 
         <div className="row d-flex ">
@@ -63,7 +63,7 @@ export default function WhyButurab() {
             <Row className="d-flex justify-content-center">
               {cardsInfo.map((info_Item) => (
                 <div
-                  className="card why-buturab-card col-md-3 m-1 pl-3 pr-4 pt-4 "
+                  className="card why-PanjitanPak-card col-md-3 m-1 pl-3 pr-4 pt-4 "
                   style={{
                     background:
                       "linear-gradient(90deg, transparent 0%, white 100%)",

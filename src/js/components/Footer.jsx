@@ -23,29 +23,33 @@ const Footer = () => {
             {/* <div className="row"> */}
             <div className="row show-grid justify-center">
               <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-                <h5>Buturab Online Quran Academy</h5>
+                <h5>PanjitanPak Online Quran Academy</h5>
                 <div class="is-divider small"></div>
                 <p className="text-align-justify">
-                  Buturab Online Quran Academy is an online platform that
+                  Panjitan Pak Online Quran Academy is an online platform that
                   provides Quran education and Islamic studies to individuals of
                   all ages and backgrounds. The Academy uses a combination of
                   live virtual classes, recorded lectures, and interactive
                   quizzes to deliver Quran education and Islamic studies to
                   students. Classes are taught by qualified and experienced
-                  teachers. Buturab Online Quran Academy is open to individuals
-                  of all faiths and backgrounds who are interested in learning
-                  about the Quran and Islamic studies.
+                  teachers. PanjitanPak Online Quran Academy is open to
+                  individuals of all faiths and backgrounds who are interested
+                  in learning about the Quran and Islamic studies.
                 </p>
               </div>
               {/* <Col className="col-xs-12 col-sm-12 col-md-1 col-lg-1"></Col> */}
               <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4">
                 <h5>Contacts</h5>
                 <div class="is-divider"></div>
-                <FontAwesomeIcon icon={faEnvelope} /> Email :
-                buturab5127232@gmail.com
-                <br />
-                <FontAwesomeIcon icon={faPhone} /> Mobile : +92 346 5127232
-                <br />
+                <div className="flex">
+                  <FontAwesomeIcon icon={faEnvelope} /> Email :
+                  PanjitanPak@gmail.com
+                  <br />
+                  <br />
+                  <FontAwesomeIcon icon={faPhone} /> Mobile : +92 315 5255725
+                  <br />
+                  <br />
+                </div>
               </div>
               <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4">
                 <h5>Useful Links</h5>
@@ -80,11 +84,11 @@ const Footer = () => {
                     <li>
                       <a href="https://en.wikishia.net/">Wikishia</a>
                     </li>
-                    <li>
+                    {/* <li>
                       <a href="http://www.shiasearch.com/en/%D8%A7%D9%86%DA%AF%D9%84%DB%8C%D8%B3%DB%8C.html">
                         Shia Search (English)
                       </a>
-                    </li>
+                    </li> */}
                   </div>
                 </p>
               </div>
@@ -103,7 +107,7 @@ const Footer = () => {
             Disclaimer:
             <br />
             <p className="text-align-justify">
-              The information provided on "Buturab Academy" is for general
+              The information provided on "PanjitanPak Academy" is for general
               informational purposes only. All information on the Site is
               provided in good faith, however we make no representation or
               warranty of any kind, express or implied, regarding the accuracy,
@@ -167,7 +171,7 @@ const Footer = () => {
           </EmailShareButton>
           <p>
             All Rights Reserved &copy;
-            <br /> 2020-{new Date().getFullYear()} Buturab Development Team
+            <br /> 2020-{new Date().getFullYear()} PanjitanPak Development Team
           </p>
         </Container>
 

@@ -7,14 +7,16 @@ import {
   Carousel,
   Card,
   CardGroup,
+  Image,
 } from "react-bootstrap";
 import muslimGirl from "./../../resources/images/muslimGirl.jpg";
-import bannerImage_01 from "./../../resources/images/WebsiteBannerButurab.png";
-import bannerImage_02 from "./../../resources/images/WebsiteBannerButurab_02.jpg";
+import bannerImage_01 from "./../../resources/images/WebsiteBannerPanjitanPak.png";
+import bannerImage_02 from "./../../resources/images/WebsiteBannerPanjitanPak_02.jpg";
 import Quran01Png from "./../../resources/images/quran-01-png.png";
 import Quran02Png from "./../../resources/images/quran-02-png.png";
+import RegistrationPoster from "./../../resources/images/Posters/RegistrationPoster.jpg";
 import BoyeThinkingPng from "./../../resources/images/sad-boy-thinking-png.png";
-import WhyButurab from "./services/WhyButurab";
+import WhyPanjitanPak from "./services/WhyPanjitanPak";
 const Home = () => {
   let cardsInfo = [
     {
@@ -38,7 +40,7 @@ const Home = () => {
   ];
   return (
     <>
-      <Carousel>
+      {/* <Carousel>
         <Carousel.Item>
           <img
             // src="https://img.freepik.com/vecteurs-libre/fond-cercles-dans-tons-sombres_60389-166.jpg"
@@ -48,10 +50,10 @@ const Home = () => {
             width="100%"
           />
           {/* 
-          <Carousel.Caption className="text-center buturab-name-heading ">
-            <h1 className="font-italic">Buturab Online Islamic Academy</h1>
+          <Carousel.Caption className="text-center PanjitanPak-name-heading ">
+            <h1 className="font-italic">PanjitanPak Online Islamic Academy</h1>
             <h1 className="urdu-header-center">بوتراب آنلائن قرآن اکیڈمی</h1>
-          </Carousel.Caption> */}
+          </Carousel.Caption> 
         </Carousel.Item>
         <Carousel.Item>
           <img
@@ -62,12 +64,35 @@ const Home = () => {
             width="100%"
           />
           {/* 
-          <Carousel.Caption className="text-center buturab-name-heading ">
-            <h1>Buturab Online Islamic Academy</h1>
+          <Carousel.Caption className="text-center PanjitanPak-name-heading ">
+            <h1>PanjitanPak Online Islamic Academy</h1>
             <h1 className="urdu-header-center">بوتراب آنلائن قرآن اکیڈمی</h1>
-          </Carousel.Caption> */}
+          </Carousel.Caption>
         </Carousel.Item>
-      </Carousel>
+      </Carousel> */}
+      <br />
+      <br />
+      {/* <br /> */}
+      <Container>
+        <div className="textAlignCenter">
+          <p>
+            Right of Child on the father is to assign him/her a good name and
+            teach them the best discipline and teach Qura'an. <br />
+            (Nahjul Balagha, Hikmat No. 399)
+          </p>
+        </div>
+        <div className="textAlignCenter">
+          <div>
+            <Image
+              src={RegistrationPoster}
+              height={800}
+              width={550}
+              alt="Registration Poster"
+            ></Image>
+          </div>
+          <p className="p-4 textAlignCenter">Admissions Opened</p>
+        </div>
+      </Container>
       <div className="textAlignCenter">
         <div className="sloganPanel full-bleed">
           <div>
@@ -86,7 +111,7 @@ const Home = () => {
         </div>
 
         <Container className="welcomeStatement">
-          <h3>Welcome to Buturab Online Islamic Academy. </h3>
+          <h3>Welcome to PanjitanPak Online Islamic Academy. </h3>
 
           <p>
             Thank you for taking the time to visit Islamic Academy.
@@ -161,7 +186,7 @@ const Home = () => {
           </p>
         </Container>
         <Container>
-          <WhyButurab />
+          <WhyPanjitanPak />
         </Container>
       </div>
     </>

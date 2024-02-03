@@ -1,6 +1,6 @@
 ## Project Name & Pitch
 
-### Buturab Online Quran Academy Front End Code.
+### PanjitanPak Online Quran Academy Front End Code.
 
 An application used to spread knowledge of islam for each and everyone, built with React, Redux, JavaScript, and CSS.
 

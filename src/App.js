@@ -47,17 +47,16 @@ function App() {
   return (
     <>
       <BrowserRouter>
-        <div className="ButurabApp">
+        <div className="PanjitanPakApp">
           {/* Header Section Starts */}
           <div
-            className="ButurabAppHeader w-100"
+            className="PanjitanPakAppHeader w-100"
             style={{
               backgroundColor: "#F4FBFF",
               background: isSticky ? "#fff" : "",
               zIndex: "999",
               position: isSticky ? "fixed" : "absolute",
               //marginBottom: isSticky ? "30px" : "0px",
-              // minHeight: "120px",
             }}
           >
             <Header isSticky={isSticky} />
@@ -65,7 +64,7 @@ function App() {
           {/* Header Section Ends */}
 
           {/* Body Section Starts */}
-          <div className="ButurabAppBody pb-4">
+          <div className="PanjitanPakAppBody pb-4">
             {/* ROUTES */}
             <Routes>
               <Route path="/" element={<Home />} />
@@ -87,7 +86,7 @@ function App() {
           {/* Body Section Ends */}
 
           {/* Footer Section Starts */}
-          <div className="ButurabAppFooter">
+          <div className="PanjitanPakAppFooter">
             <Footer />
           </div>
           {/* Footer Section Ends */}
