@@ -12,7 +12,7 @@ import {
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons";
 
-import { Col, Container, Row } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 
 const Footer = () => {
   return (
@@ -43,7 +43,7 @@ const Footer = () => {
                 <div class="is-divider"></div>
                 <div className="flex">
                   <FontAwesomeIcon icon={faEnvelope} /> Email :
-                  PanjitanPak@gmail.com
+                  panjitanpak@gmail.com
                   <br />
                   <br />
                   <FontAwesomeIcon icon={faPhone} /> Mobile : +92 315 5255725
@@ -142,36 +142,35 @@ const Footer = () => {
 
         <Container className="text-center">
           <FacebookShareButton
-            url={"https://www.example.com"}
-            quote={"Dummy text!"}
-            hashtag="#muo"
+            url={"https://www.facebook.com/PanjitanPakOnlineQuranAcademy"}
+            quote={"PanjitanPakOnlineQuranAcademy Facebook page"}
+            hashtag="#PanjitanPakOnlineQuranAcademy"
           >
             <FacebookIcon size={32} round />
           </FacebookShareButton>
-          <TwitterShareButton
+          {/* <TwitterShareButton
             url={"https://www.example.com"}
             quote={"Dummy text!"}
             hashtag="#muo"
           >
             <TwitterIcon size={32} round />
-          </TwitterShareButton>
-          <WhatsappShareButton
+          </TwitterShareButton> */}
+          {/* <WhatsappShareButton
             url={"https://www.example.com"}
             quote={"Dummy text!"}
             hashtag="#muo"
-          >
-            <WhatsappIcon size={32} round />
-          </WhatsappShareButton>
+          >  <WhatsappIcon size={32} round />
+          </WhatsappShareButton> */}
           <EmailShareButton
-            url={"https://www.example.com"}
-            quote={"Dummy text!"}
-            hashtag="#muo"
+            url={"panjitanpak@gmail.com"}
+            quote={"Mail To : PanjitanPakOnlineQuranAcademy"}
+            hashtag="#PanjitanPakOnlineQuranAcademy"
           >
             <EmailIcon size={32} round />
           </EmailShareButton>
           <p>
             All Rights Reserved &copy;
-            <br /> 2020-{new Date().getFullYear()} PanjitanPak Development Team
+            <br /> 2020-{new Date().getFullYear()} Panjitan Pak Development Team
           </p>
         </Container>
 
