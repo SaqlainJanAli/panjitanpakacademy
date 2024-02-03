@@ -27,6 +27,10 @@ let Pages = [
         link: "QuranTafseer",
       },
       {
+        title: "Ayimah Athaar Learnings",
+        link: "Ayimah",
+      },
+      {
         title: "Fiqhi Masail (Modern Propositions)",
         link: "FiqhiMasail",
       },

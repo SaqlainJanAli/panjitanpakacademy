@@ -1,7 +1,5 @@
 import "./App.css";
 import "./css/layout.css";
-// import "rsuite/dist/rsuite.min.css";
-// import "rsuite/styles/index.less";
 import "bootstrap/dist/css/bootstrap.css";
 import Header from "./js/components/Header";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
@@ -12,7 +10,6 @@ import FiqhiMasail from "./js/components/services/FiqhiMasail";
 import QuranRecitation from "./js/components/services/QuranRecitation";
 import QuranTafseer from "./js/components/services/QuranTafseer";
 import Ayimah from "./js/components/Hadith/Ayimah";
-// import { Container } from "rsuite";
 import { Container } from "react-bootstrap";
 // import PageScrollProgressBar from "react-page-scroll-progress-bar";
 import RegisterNow from "./js/components/Register/RegisterNow";
@@ -76,8 +73,8 @@ function App() {
               <Route path="/OurServices" element={<OurServices />} />
               <Route path="/FiqhiMasail" element={<FiqhiMasail />} />
               <Route path="/QuranRecitation" element={<QuranRecitation />} />
-              {/* <Route path="/QuranTafseer" element={<QuranTafseer />} /> */}
-              <Route path="/QuranTafseer" element={<Ayimah />} />
+              <Route path="/QuranTafseer" element={<QuranTafseer />} />
+              <Route path="/Ayimah" element={<Ayimah />} />
               <Route path="/FAQs" element={<FAQs />} />
               <Route path="/About" element={<About />} />
             </Routes>

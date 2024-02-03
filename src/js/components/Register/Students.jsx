@@ -2,8 +2,6 @@ import axios from "axios";
 import React from "react";
 import { useEffect } from "react";
 import { useState } from "react";
-// import { Table, Button, Grid } from "rsuite";
-// import { Cell, Column, HeaderCell } from "rsuite-table";
 
 const Students = () => {
   const [studentData, setStudentData] = useState([

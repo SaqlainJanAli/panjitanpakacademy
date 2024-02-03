@@ -21,19 +21,19 @@ const Home = () => {
   let cardsInfo = [
     {
       title: "Quran Reading & Recitation",
-      body: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis harum cupiditate corporis eum aliquam magnam, illo mollitia iure maiores quod.",
+      body: "Elevate Your Soul with Profound Quran Reading & Recitation at Our Academy – Embrace Spiritual Enlightenment & Mastery of Sacred Verses.",
       image: { Icon: Quran01Png, width: "15rem", height: "12rem" },
       alt: "Quran 01 Image",
     },
     {
       title: "Quran Tafseer",
-      body: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis harum cupiditate corporis eum aliquam magnam, illo mollitia iure maiores quod.",
+      body: "Unlock the Depths of Divine Wisdom: Explore Quran Tafseer for In-Depth Understanding and Spiritual Enlightenment at Our Academy.",
       image: { Icon: Quran02Png, width: "15rem", height: "12rem" },
       alt: "Quran 02 Image",
     },
     {
       title: "Jadeed Fiqhi Masail (Jafaria)",
-      body: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis harum cupiditate corporis eum aliquam magnam, illo mollitia iure maiores quod.",
+      body: "Navigate Contemporary Jurisprudential Issues: Delve into Jadeed Fiqhi Masail (Jafaria) for Informed Guidance and Practical Solutions.",
       image: { Icon: BoyeThinkingPng, width: "15rem", height: "12rem" },
       alt: "Quran 03 Image",
     },
