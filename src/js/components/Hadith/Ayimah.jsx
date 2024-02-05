@@ -20,7 +20,7 @@ const Ayimah = () => {
     "Hazrat Imam Muhammad Taqi a.s",
     "Hazrat Imam Ali Naqi a.s",
     "Hazrat Imam Hassan-ul-askari a.s",
-    "Hazrat Imam Mehhdi a.j.t.f",
+    "Hazrat Imam Mehdi a.j.t.f",
   ];
 
   // // --Modal Settings

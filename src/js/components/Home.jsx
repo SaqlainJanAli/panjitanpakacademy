@@ -85,10 +85,9 @@ const Home = () => {
           <div>
             <Image
               src={RegistrationPoster}
-              height={800}
-              width={550}
               alt="Registration Poster"
-            ></Image>
+              fluid // Use the fluid prop for responsive behavior
+            />
           </div>
           <p className="p-4 textAlignCenter">Admissions Opened</p>
         </div>
