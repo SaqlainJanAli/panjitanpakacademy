@@ -83,11 +83,7 @@ const Home = () => {
         </div>
         <div className="textAlignCenter">
           <div>
-            <Image
-              src={RegistrationPoster}
-              alt="Registration Poster"
-              fluid // Use the fluid prop for responsive behavior
-            />
+            <Image src={RegistrationPoster} alt="Registration Poster" fluid />
           </div>
           <p className="p-4 textAlignCenter">Admissions Opened</p>
         </div>
